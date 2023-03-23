@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #181818;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+header .container {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 32px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header nav ul li {
+    margin-left: 32px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+header nav ul li:first-of-type{
+    margin-right: 24px;
+}
+
+header nav ul li:first-of-type a{
+    font-size: 13px;
+}
+header nav ul li:last-of-type a{
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 11px 20px;
+    font-size: 16px;
+    color: black;
+}
+   /* main_banner */
+
+.main_banner {
+    background-image: url("../images/aperture_studios.jpg");
+    background-size: cover;
+    height: calc(100vh - 83px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 71px;
+    box-sizing: border-box;
+}
+.main_banner article {
+    max-width: 580px;
+    text-align: center;
+}
+.main_banner article h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.main_banner article h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.main_banner article p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0
+}
+    /*Sunset at Mount Fuji*/
+.sunset {
+    background-image: url("../images/sunset.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    padding-right: 62px;
+    box-sizing: border-box;
+}
+.sunset article {
+    max-width: 298px;
+}
+.sunset article h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sunset article p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+    /* Monstera Leafs*/
+.leafs{
+    background-image: url("../images/monstera.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    padding-right: 87px;
+    box-sizing: border-box;
+}
+.leafs_title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.leafs_text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.container_leafs {
+    max-width: 273px;
+    text-align: left;
+}
+    /*Himalayas*/
+.himalayas{
+    background-image: url("../images/himalays.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    padding-right: 119px;
+    box-sizing: border-box;
+}
+.himalayas_title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 254px;
+}
+.himalayas_text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    max-width: 241px;
+}
+.container_himalayas {
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+}
+/*Need help with photography or videography?*/
+.features{
+    background-color: #000000;
+    padding-top: 113px;
+    padding-bottom: 108px;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.features article{
+    font-family: 'Poppins', sans-serif;
+    max-width: 600px;
+}
+.features h6{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.features p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+.features a{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 5px 10px 5px 4px;
+    border-radius: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.features a::before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 6px;
+    display: inline-block;
+}
