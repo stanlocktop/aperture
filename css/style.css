@@ -231,3 +231,158 @@ header nav ul li:last-of-type a{
     margin-right: 6px;
     display: inline-block;
 }
+    /*what we do*/
+.what_we_do{
+    background-color: #000000;
+    padding-top: 113px;
+    padding-bottom: 84px;
+}
+.what_we_do .container {
+    max-width: 1168px;
+    margin: auto;
+}
+.what_we_do h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.what_we_do .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.what_we_do .cards article{
+    max-width: 576px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.what_we_do .description{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+.what_we_do .cards article img {
+    display: block;
+    width: 100%;
+}
+.what_we_do .description h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.what_we_do .description p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 20px;
+}
+
+.what_we_do .description a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 5px 10px 5px 4px;
+    border-radius: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.what_we_do .description a::before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 6px;
+    display: inline-block;
+}
+/*Logotip*/
+.logotip {
+    background-color: black;
+    padding-top: 113px;
+    padding-bottom: 169px;
+}
+.logotip_title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.logotip_text {
+    margin-bottom: 82px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.logotip_list {
+    width: 1000px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logtip_list_item {
+    list-style: none;
+    width: 128px;
+}
+.logotip_item_link {
+    text-decoration: none;
+}
+.logotip_item_img_1 {
+    display: block;
+    height: 30px;
+}
+.logotip_item_img_2 {
+    display: block;
+    height: 78px;
+}
+.logotip_item_img_3 {
+    display: block;
+    height: 20px;
+}
+.logotip_item_img_4 {
+    display: block;
+    height: 36px;
+}
+.logotip_item_img_5 {
+    display: block;
+    height: 32px;
+}
