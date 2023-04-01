@@ -327,13 +327,26 @@ header nav ul li:last-of-type a{
 }
 /*Logotip*/
 .logotip {
-    background-color: black;
+    background: #000000;
     padding-top: 113px;
-    padding-bottom: 169px;
+    padding-bottom: 140px;
+    box-sizing: border-box;
+    min-height: 500px;
 }
-.logotip_title {
+
+.logotip_container {
+    margin: auto;
+    max-width: 1168px;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
+}
+
+.past {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotip_container h3 {
     font-weight: 400;
     font-size: 40px;
     line-height: 42px;
@@ -341,48 +354,12 @@ header nav ul li:last-of-type a{
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.logotip_text {
-    margin-bottom: 82px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
+
+.logotip_container h4 {
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
-}
-.logotip_list {
-    width: 1000px;
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-}
-.logtip_list_item {
-    list-style: none;
-    width: 128px;
-}
-.logotip_item_link {
-    text-decoration: none;
-}
-.logotip_item_img_1 {
-    display: block;
-    height: 30px;
-}
-.logotip_item_img_2 {
-    display: block;
-    height: 78px;
-}
-.logotip_item_img_3 {
-    display: block;
-    height: 20px;
-}
-.logotip_item_img_4 {
-    display: block;
-    height: 36px;
-}
-.logotip_item_img_5 {
-    display: block;
-    height: 32px;
+    margin-bottom: 82px;
 }
