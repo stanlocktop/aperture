@@ -491,3 +491,138 @@ header nav ul li:last-of-type a{
     background-image: url("../images/decor_4.svg");
     width: 10px;
 }
+                    /*Footer*/
+footer {
+    background-color: black;
+    padding: 100px 0;
+}
+
+footer .container {
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container:nth-child(1) .business_areas {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+footer .container:nth-child(1) .right_first li {
+    margin-bottom: 10px;
+}
+
+footer .container:nth-child(1) .left_first img {
+    margin-bottom: 20px;
+}
+
+footer .container:nth-child(2) .left_first h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+footer .container:nth-child(2) {
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    padding: 40px 0;
+    margin-top: 26px;
+}
+
+footer .container:nth-child(1) .business a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+footer .container:nth-child(1) .pages a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+footer .container:nth-child(3) {
+    padding-top: 56px;
+}
+
+footer .container:nth-child(3) .left_first a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.right_first ul {
+    list-style: none;
+}
+
+.right_first ul li a {
+    text-decoration: none;
+}
+
+footer .right_first {
+    display: flex;
+}
+
+footer .right_first ul {
+    min-width: 220px;
+    margin-left: 15px;
+}
+
+footer form {
+    width: 100%;
+    max-width: 458px;
+    background: #F9FAFB;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6px;
+    box-sizing: border-box;
+    height: 52px;
+}
+
+footer form input {
+    line-height: 52px;
+    border: none;
+    background-color: transparent;
+    width: 80%;
+}
+
+footer form button {
+    width: 63px;
+    height: 38px;
+    background: #000000;
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
+}
+
+.icons_footer {
+    width: 106px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
