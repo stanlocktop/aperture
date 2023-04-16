@@ -1,0 +1,68 @@
+@media only screen and (max-width: 874px) {
+    header nav ul li{
+        margin-left: 12px;
+    }
+    .what_we_do .cards{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 874px) {
+    .tools .container p{
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width: 794px) {
+    header nav ul li a{
+        font-size: 11px;
+    }
+    header nav ul li{
+        margin-left: 8px;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .what_we_do .cards{
+        display: flex;
+        justify-content: center;
+    }
+    .tools .by_img{
+        width: 100%;
+        position: relative;
+        height: 500px;
+    }
+    .tools .container{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 707px) {
+    header nav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 429px){
+    .logotip .past{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .right_first{
+        display: block;
+        padding: 0 15px;
+    }
+}
+@media only screen and (max-width: 376px){
+    .logotip .past{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 15px;
+    }
+}
+@media only screen and (max-width: 321px){
+    .main_banner{
+        height: calc(100vh - 85px);
+    }
+    .bottom_icons{
+        flex-wrap: wrap;
+    }
+}
