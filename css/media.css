@@ -6,10 +6,26 @@
         display: flex;
         justify-content: center;
     }
-}
-@media only screen and (max-width: 874px) {
-    .tools .container p{
+    .tools article p{
         max-width: 400px;
+    }
+    .tools article{
+        margin-left: 10px;
+    }
+    .logotip .past img:first-of-type{
+        margin-left: 10px;
+    }
+    .logotip .past img:last-of-type{
+        margin-right: 10px;
+    }
+    footer .container .left_first{
+        margin-left: 10px;
+    }
+    footer .container form{
+        margin-right: 10px;
+    }
+    footer .container .icons_footer{
+        margin-right: 10px;
     }
 }
 @media only screen and (max-width: 794px) {
@@ -30,7 +46,7 @@
         position: relative;
         height: 500px;
     }
-    .tools .container{
+    .tools article{
         width: 100%;
         margin: auto;
     }
@@ -47,7 +63,15 @@
     }
     footer .right_first{
         display: block;
-        padding: 0 15px;
+    }
+    .tools article{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 415px){
+    .main_banner article p{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 @media only screen and (max-width: 376px){
@@ -55,7 +79,42 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 0 15px;
+    }
+    .what_we_do .container h4{
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .tools article p{
+        margin-right: 6px;
+    }
+}
+@media only screen and (max-width: 361px){
+    footer .right_first ul{
+        text-align: center;
+        margin-left: 0;
+    }
+    footer{
+        padding-top: 0;
+    }
+    footer .container .left_first{
+        text-align: center;
+        margin-right: 10px;
+    }
+    footer .container .right_first{
+        margin-top: 15px;
+    }
+    .sunset article{
+        margin-left: 10px;
+    }
+    .leafs article{
+        margin-left: 10px;
+    }
+    .himalayas article{
+        margin-left: 10px;
+    }
+    footer .container:first-of-type{
+        display: block;
+        margin: auto;
     }
 }
 @media only screen and (max-width: 321px){
